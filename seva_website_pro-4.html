@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SEVA Service</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 30px 20px;
+}
+
+h1 {
+    font-size: 45px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+h2 {
+    color: #00ffcc;
+    margin-top: 5px;
+}
+
+.tagline {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #ddd;
+}
+
+.section {
+    padding: 30px 15px;
+}
+
+.card {
+    background: rgba(255,255,255,0.1);
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 400px;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background: rgba(0,255,200,0.2);
+}
+
+button {
+    background: #00ffcc;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #00cc99;
+}
+
+footer {
+    padding: 15px;
+    background: rgba(0,0,0,0.3);
+    margin-top: 20px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>SEVA</h1>
+    <h2>सेवा</h2>
+    <div class="tagline">आपका भरोसा, हमारे काम</div>
+</header>
+
+<div class="section">
+    <h2>हमारी सेवाएं</h2>
+    <div class="card">✔ सब्जी Transport</div>
+    <div class="card">✔ Delivery Service</div>
+    <div class="card">✔ Local Supply</div>
+</div>
+
+<div class="section">
+    <h2>हम क्यों?</h2>
+    <div class="card">✔ तेज service</div>
+    <div class="card">✔ भरोसेमंद काम</div>
+    <div class="card">✔ सही समय पर delivery</div>
+</div>
+
+<div class="section">
+    <h2>Contact</h2>
+    <div class="card">📞 8376950380</div>
+    <div class="card">📍 Your City</div>
+    <div class="card">📧 sevaservice@gmail.com</div>
+    <button onclick="callNow()">Call Now</button>
+</div>
+
+<footer>
+    <p>© 2026 SEVA Service</p>
+</footer>
+
+<script>
+function callNow() {
+    window.location.href = "tel:8376950380";
+}
+</script>
+
+</body>
+</html>
